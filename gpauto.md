@@ -1,0 +1,17 @@
+# /usr/local/gopro/scripts/gpauto
+
+```
+goprohero
+#The line above must contain the AP password for this camera.
+#Copy this "/gpauto" file into the root directory of the SD card.
+# then power cycle Camera twice. Once to load, once to use.
+#
+#One button Off Mode  (requires v03.00)
+#1.Use the power button to turn off the Camera: The Wifi also powers off.
+#2.Use the RC to turn off the Camera: Wifi remains on in low power RC mode.
+#3.Use the Phone APP to turn off the Camera: Wifi remains on in high power mode.
+EVoff_button_on,1
+# The following line will set a 30 second camera off timeout for Rockypoint
+EVtraffic_timeouts,wake=310:rc[scan=60:loss=30:warn=5:ok=1]app[scan=300:loss=30:warn=5:ok=1]
+EVled_style,1
+```
