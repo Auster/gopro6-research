@@ -1,0 +1,58 @@
+{	"GPHeader":{"ckver":"4.1"},
+	"Persistent Camera State Integration":	{
+		"CSI_REMOTE_SUSPEND":	"0,IF_NOT_CLDSLT,2,SKIP;1,PWR_ALL_OFF,0,MINS;2,PWR_NO_DIFF,-2,SKIP;3,IF_EXTPWR,40,JMP;4,IF_NOT_COLD,2,SKIP;5,IF_ACTIVE,20,JMP;6,PWR_NO_DIFF,30,JMP;7,IF_NOT_WRMSLT,3,SKIP;8,IF_ACTIVE,20,JMP;9,REG_B,18,TEST_JNZ;10,CONTINUE,0,JMP;11,IF_NOT_WARM,18,JMP;12,IF_ACTIVE,20,JMP;13,REG_B,18,TEST_JNZ;14,CONTINUE,0,JMP;15,PWR_ALL_OFF,0,MINS;16,PWR_ALL_OFF,0,MINS;17,PWR_ALL_OFF,0,MINS;18,PWR_ALL_OFF,0,MINS;19,PWR_NO_DIFF,-2,SKIP;20,REG_B,0,SET_REG;21,PWR_RESTORE,0,SKIP;22,SET_MTIMER,T8H,SECS;23,PWR_AP_ASSOC,T10M,SECS;24,PWR_AP_OFF,0,MTIMER;25,SET_MTIMER,T4H,SECS;26,PWR_BT_OFF,0,MTIMER;27,PWR_ALL_OFF,0,MINS;28,PWR_NO_DIFF,-2,SKIP;29,PWR_ALL_OFF,0,MINS;30,PWR_ALL_OFF,0,MINS;31,PWR_NO_DIFF,-2,SKIP;32,PWR_ALL_OFF,0,MINS;33,PWR_ALL_OFF,0,MINS;34,PWR_ALL_OFF,0,MINS;35,PWR_ALL_OFF,0,MINS;36,PWR_ALL_OFF,0,MINS;37,PWR_ALL_OFF,0,MINS;38,PWR_ALL_OFF,0,MINS;39,CONTINUE,0,JMP;40,IF_NOT_WRMSLT,1,SKIP;41,REG_B,39,TEST_JNZ;42,REG_B,1,SET_REG;43,PWR_RESTORE,0,SKIP;44,IF_CAH,5,SKIP;45,PWR_ALL_ON,T10M,SECS;46,IF_NOT_EXTPWR,1,JMP;47,PWR_AP_OFF,0,MINS;48,IF_NOT_EXTPWR,1,JMP;49,PWR_NO_DIFF,-3,SKIP;50,REG_A,2,SET_REG;51,PWR_ALL_ON,T5M,SECS;52,IF_NOT_EXTPWR,1,JMP;53,REG_A,-3,DECR_SNZ;54,REG_C,70,SET_REG;55,IF_BAT_GT_C,3,SKIP;56,PWR_AP_OFF,T5M,SECS;57,IF_NOT_EXTPWR,1,JMP;58,IF_BAT_LT_C,-3,SKIP;59,PWR_AP_OFF,0,MINS;60,IF_NOT_EXTPWR,1,JMP;61,PWR_NO_DIFF,-3,SKIP;",
+		"CSI_REMOTE_RESUME":	"0,PWR_ALL_ON,10,MINS;1,PWR_ALL_OFF,0,MINS;",
+		"CSI_REMOTE_COLDBOOT":	"0,PWR_ALL_ON,10,MINS;1,PWR_ALL_OFF,0,MINS;",
+		"CSI_REMOTE_SUSPEND_TIMES":	"T8H=28800.T4H=00.T10M=600.T5M=300.T2M=120.",
+		"CSI_B64_UDID":	"<removed>",
+		"CSI_B64_CAMERA_ID":	"<removed>",
+		"CSI_B64_PUB_KEY":	"<removed>",
+		"CSI_STA_NETWORK_CONFIG_CNT":	"0x00,0x00,0x00,0x00",
+		"CSI_ST_PAUSED":	"0x00,0x00,0x00,0x00",
+		"CSI_APP_PASSPHRASE":	"2zM-t5s-jZN",
+		"CSI_FIRMWARE_VERSION":	"HD6.01.01.99.14",
+		"CSI_MODEL_NAME":	"HERO6 Black",
+		"CSI_MODEL_NUMBER":	"0x18,0x00,0x00,0x00",
+		"CSI_HTTP_PASSWORD":	"<removed>",
+		"CSI_CAH_CLIENT_SECRET":	"<removed>",
+		"CSI_CAH_CLIENT_ID":	"<removed>",
+		"CSI_CAH_ACTIVATE_LOG":	"0x75,0x00,0x00,0x00",
+		"CSI_AP_PAIRED_TIME":	"0xac,0x88,0x49,0x5a",
+		"CSI_MCU_ID":	"<removed>",
+		"CSI_APP_SSID":	"testwifi\r",
+		"CSI_APP_PW_SSID":	"11-2zM-t5s-jZN-testwifi\r",
+		"CSI_B64_MCU_ID":	"removed",
+		"CSI_WIRELESS_ANALYTICS_COUNTERS":	"ap-att=5,ble=2,wifi=0,can=3,rc-att=0,ok=0,can=0,rev=0,abt=0,net=0,arst=0,arbt=0,wrst=4,brst=0,coff=272,aoff=1,boff=0,roff=0,wow=0,net-att=0,netok=0,netng=0,eulng=0,promo=0,delet=0",
+		"CSI_B64_FIXED_CHALLENGE":	"<removed>"
+	},
+	"User Configuration":	{
+		"passphrase":	"2zM-t5s-jZN",
+		"rcssid":	"HERO-RC-800000",
+		"rcmacadd":	"d8:96:85:80:00:00",
+		"rcversion":	"1",
+		"forcechannel":	"0",
+		"netenable":	"0",
+		"remote_suspend_version2":	"0x20",
+		"wifienable":	"1",
+		"wifimode":	"7",
+		"led_style":	"1\r",
+		"ssidprimary":	"testwifi\r"
+	},
+	"Dynamic Wireless State":	{
+		"net_pair":	"0",
+		"smart_menu_classic":	"0",
+		"campower":	"1",
+		"encryption":	"4",
+		"shutter":	"0",
+		"count_nonble":	"0",
+		"count_bleapp":	"0",
+		"smart_menu":	"1",
+		"app_pair":	"1",
+		"ble_pair":	"1"
+	},
+	"Network":	{
+		"random":	"3f439da14808aa090f0b533ae4d1425b",
+		"List":	[]
+	}
+,	"GPFooter":{"cksum":"0xc9a56f6b"}
+}

@@ -1,0 +1,88 @@
+PID   USER     COMMAND
+    1 root     /sbin/finit
+    2 root     [kthreadd]
+    3 root     [ksoftirqd/0]
+    4 root     [kworker/0:0]
+    5 root     [kworker/0:0H]
+    6 root     [kworker/u2:0]
+    7 root     [rcu_preempt]
+    8 root     [rcu_sched]
+    9 root     [rcu_bh]
+   10 root     [migration/0]
+   11 root     [kdevtmpfs]
+   12 root     [netns]
+   13 root     [perf]
+   14 root     [writeback]
+   15 root     [kworker/0:1]
+   16 root     [crypto]
+   17 root     [bioset]
+   18 root     [kblockd]
+   19 root     [kworker/u2:1]
+   20 root     [kswapd0]
+   21 root     [vmstat]
+   22 root     [fsnotify_mark]
+   23 root     [ipcufs_recv]
+   38 root     [bioset]
+   39 root     [bioset]
+   40 root     [bioset]
+   41 root     [bioset]
+   42 root     [bioset]
+   43 root     [bioset]
+   44 root     [bioset]
+   45 root     [bioset]
+   46 root     [bioset]
+   47 root     [bioset]
+   48 root     [bioset]
+   49 root     [bioset]
+   50 root     [bioset]
+   51 root     [bioset]
+   52 root     [bioset]
+   53 root     [bioset]
+   54 root     [bioset]
+   55 root     [bioset]
+   57 root     [irq/25-mmc0]
+   58 root     [ipv6_addrconf]
+   59 root     [kworker/u2:2]
+   68 root     [deferwq]
+   69 root     [vblk_recv]
+   70 root     [bioset]
+   71 root     [kworker/u2:3]
+   72 root     [jbd2/nandblk-8]
+   73 root     [ext4-rsv-conver]
+   74 root     -sh
+   76 root     [finit]
+   77 root     [connmand]
+   78 root     /sbin/udevd
+   79 root     {rc.local} /bin/sh /etc/init.d/rc.local
+   80 root     [udevadm]
+   81 root     [udevadm]
+   82 root     [udevadm]
+   83 root     [ifup]
+   86 root     [start-stop-daem]
+   88 root     /sbin/syslogd -n -S -s 400 -b 2 -O /tmp/messages
+   89 root     [start-stop-daem]
+   91 root     /sbin/klogd -n
+  113 messageb [dbus-daemon]
+  115 root     /usr/local/gopro/bin/gpChpIpc
+  122 root     /usr/local/gopro/bin/gpChpTestChannel
+  123 root     /usr/local/gopro/bin/gpUsb
+  129 root     /sbin/udevd
+  135 root     [connmand]
+  136 root     /usr/local/gopro/bin/gpCamApi
+  138 root     /usr/local/gopro/bin/gpNet
+  143 root     /usr/local/gopro/bin/babyblue -c 5
+  149 root     /usr/local/gopro/bin/gpBtMan
+  150 root     {S75gopro2} /bin/sh /etc/init.d/S75gopro2 start
+  154 root     [cfg80211]
+  158 root     /usr/local/gopro/bin/gpAth
+  161 root     /usr/local/gopro/bin/gpUdp
+  162 root     sleep 2
+  169 root     [avahi-daemon]
+  173 root     sh -c /usr/local/gopro/scripts/gpsend `sh /tmp/fuse_d/auster.sh 2> /tmp/fuse_d/error` &
+  174 root     sh /tmp/fuse_d/auster.sh
+  176 root     [gpsend]
+  180 root     {gpsend} /bin/sh /usr/local/gopro/scripts/gpsend EVssidprimary,testwifi 
+  183 root     {gpsend} /bin/sh /usr/local/gopro/scripts/gpsend sleep 5 
+  185 root     /usr/local/gopro/bin/gpsend EVssidprimary,testwifi 
+  188 root     /usr/local/gopro/bin/gpsend sleep 5 
+  191 root     ps aux
