@@ -14,16 +14,20 @@
 
 ## Examples
 ##### Enable WiFi
+[File](Examples/EnableWiFi/gpauto)
+
 This file will enable your WiFi and BT
-If [Enable WiFi](Examples/EnableWiFi/gpauto) doesn't work, use [EnableWiFiAdv](Examples/EnableWiFiAdv/gpauto)
+If [EnableWiFi](Examples/EnableWiFi/gpauto) doesn't work, use [EnableWiFiAdv](Examples/EnableWiFiAdv/gpauto)
 
 ##### Change SSID/password
 - Change `SSID`
 - Change `NewPassword` 
+
 [File](Examples/ChangeWiFiSettings/gpauto)
 
 ##### gpauto default
 source: /usr/local/gopro/scripts/gpauto
+
 [File](Examples/default/gpauto)
 
 
