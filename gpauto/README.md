@@ -1,4 +1,4 @@
-### gpauto Examples
+# gpauto Examples
 
 ## How to use gpauto
 
@@ -12,21 +12,21 @@
 8) Wait at least 2 seconds
 9) Insert battery
 
-# Enable WiFi
+### Enable WiFi
 This file will enable your WiFi and BT
 If [Enable WiFi](Examples/EnableWiFi/gpauto) doesn't work, use [EnableWiFiAdv](Examples/EnableWiFiAdv/gpauto)
 
-# Change SSID/password
+### Change SSID/password
 - Change `SSID`
 - Change `NewPassword` 
 [File](Examples/ChangeWiFiSettings/gpauto)
 
-# gpauto default
+### gpauto default
 source: /usr/local/gopro/scripts/gpauto
 [File](Examples/default/gpauto)
 
 
-### Know commands:
+## Know commands:
 
 - EVoff_button_on,1
 
