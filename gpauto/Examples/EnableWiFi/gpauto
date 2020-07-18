@@ -1,2 +1,2 @@
 Password
-EVtraffic_timeouts,wake=310:rc[scan=60:loss=30:warn=5:ok=1]app[scan=300:loss=30:warn=5:ok=1]
+EVwifienable,1
