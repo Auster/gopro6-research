@@ -18,6 +18,7 @@ $ file ./*
 ./sector13.bin: data
 ./sector14.bin: data
 ```_fileCRC
+```
 
 GoPro 6 DATA.bin unpacked
 

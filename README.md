@@ -1,3 +1,5 @@
+## Hardware:
+Boardname: "Chopes PVT"
 
 ## Firmware:
 [DATA.bin](DATA.bin_structure.md)
