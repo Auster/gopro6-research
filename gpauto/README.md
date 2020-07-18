@@ -13,33 +13,30 @@
 9) Insert battery
 
 ## Examples
-##### Enable WiFi
-[File](Examples/EnableWiFi/gpauto)
-
+##### Enable WiFi [File](Examples/EnableWiFi/gpauto)
 This file will enable your WiFi and BT
+
 If [EnableWiFi](Examples/EnableWiFi/gpauto) doesn't work, use [EnableWiFiAdv](Examples/EnableWiFiAdv/gpauto)
 
-##### Change SSID/password
+##### Change SSID/password [File](Examples/ChangeWiFiSettings/gpauto)
 - Change `SSID`
 - Change `NewPassword` 
 
-[File](Examples/ChangeWiFiSettings/gpauto)
 
-##### gpauto default
+##### gpauto default [File](Examples/default/gpauto)
 source: /usr/local/gopro/scripts/gpauto
-
-[File](Examples/default/gpauto)
 
 
 ## Know commands:
-
+```
 - EVoff_button_on,1
 
-The following line will set a 30 second camera off timeout for Rockypoint
+# The following line will set a 30 second camera off timeout for Rockypoint
 - EVtraffic_timeouts,wake=310:rc[scan=60:loss=30:warn=5:ok=1]app[scan=300:loss=30:warn=5:ok=1]
 - EVled_style,1
 
 - EVssidprimary,newGoproName
 - EVpassphrase,newGoProPassword
 
-- EVwifienable
+- EVwifienable,1
+```
