@@ -1,19 +1,3 @@
-##1.60 firmware
-#Unpacked
-```
-$ for i in `ls 1.6.unpacked/`; do file 1.6.unpacked/$i; done
-1.6.unpacked/sector00.bin: data
-1.6.unpacked/sector02.bin: data
-1.6.unpacked/sector04.bin: big endian ispell hash file (?), and 20736 string characters
-1.6.unpacked/sector07.bin: data
-1.6.unpacked/sector08.bin: Linux rev 1.0 ext4 filesystem data, UUID=8998c9d3-8d3b-410f-b3ae-36317b0ac893 (extents) (large files) (huge files)
-1.6.unpacked/sector09.bin: DIY-Thermocam raw data (Lepton 3.x), scale 19648-38373, spot sensor temperature -88471305153451388829696.000000, unit celsius, color scheme 4, calibration: offset 0.000000, slope 118128640.000000
-1.6.unpacked/sector11.bin: data
-1.6.unpacked/sector12.bin: data
-1.6.unpacked/sector13.bin: data
-1.6.unpacked/sector14.bin: data
-```
-
 ## WiFi config
 #ap.conf
 

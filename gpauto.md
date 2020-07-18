@@ -1,4 +1,5 @@
-# /usr/local/gopro/scripts/gpauto
+# gpauto default example
+source: /usr/local/gopro/scripts/gpauto
 
 ```
 goprohero

@@ -1,5 +1,6 @@
+# exec
 ```
-# /opt/gp/gpNet 2> /dev/null
+# ./gpNet 2> /dev/null
 gpNet:
 Starting gpNet daemon
 gpNet: version 6.0.0.0  built on Oct 24 2017 16:58:55 by jenkins at 0d7a4b6
