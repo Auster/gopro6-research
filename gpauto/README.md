@@ -11,6 +11,8 @@
 7) Remove battery
 8) Wait at least 2 seconds
 9) Insert battery
+10) Wait at least 10 seconds
+11) Power up camera
 
 ## Examples
 #### Enable WiFi [File](Examples/EnableWiFi/gpauto)
