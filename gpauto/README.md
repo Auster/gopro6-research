@@ -1,4 +1,4 @@
-# gpauto Examples
+# gpauto documentation
 
 ## How to use gpauto
 
@@ -12,6 +12,7 @@
 8) Wait at least 2 seconds
 9) Insert battery
 
+## Examples
 ##### Enable WiFi
 This file will enable your WiFi and BT
 If [Enable WiFi](Examples/EnableWiFi/gpauto) doesn't work, use [EnableWiFiAdv](Examples/EnableWiFiAdv/gpauto)
