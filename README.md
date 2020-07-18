@@ -1,10 +1,10 @@
-## Hardware:
+# Hardware:
 Boardname: "Chopes PVT"
 
-## Firmware:
+# Firmware:
 [DATA.bin](DATA.bin_structure.md)
 
-# Linux part
+## Linux part
 - [gpauto](gpauto.md)
 - [ps output](ps.out)
 - [mount output](mount.out)

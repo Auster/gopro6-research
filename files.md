@@ -1,5 +1,5 @@
-## WiFi config
-#ap.conf
+# WiFi config
+##ap.conf
 
 ```
 $ cat ap.conf
@@ -19,7 +19,8 @@ network={
 ```
 
 
-# /tmp/fuse_b/mfg.json
+## /tmp/fuse_b/mfg.json
+See [mfg.json](mfg.json)
 
 ```
 poky-fido/meta-mlb01-rtos/recipes-sniusbtest/sniusbtest/sniusbtest-1.0/usb30dev_mtp_func.sh:#sSerialnumber=`grep "camerasn" /tmp/fuse_b/mfg.json | cut -d ":" -f 2 | cut -d "\"" -f 2`
@@ -27,8 +28,8 @@ poky-fido/meta-mlb01-rtos/recipes-sniusbtest/sniusbtest/sniusbtest-1.0/usb30dev_
 
 ---
 
-# /tmp/fuse_b/conf.json
-See conf.json
+## /tmp/fuse_b/conf.json
+See [conf.json](conf.json)
 
 ```
 grep "CSI_FIRMWARE_VERSION" /tmp/fuse_b/conf.json | cut -d ":" -f 2 | cut -d "\"" -f 2^@^@[%s] gpUsb : %s:%d Unable to open config file [%s]....retrying %d
@@ -36,7 +37,7 @@ grep "CSI_FIRMWARE_VERSION" /tmp/fuse_b/conf.json | cut -d ":" -f 2 | cut -d "\"
 
 ---
 
-# /tmp/fuse_b/wifi_bdata.bin - "Golden bin file"
+## /tmp/fuse_b/wifi_bdata.bin - "Golden bin file"
 ```
 echo "Copying golden bin file"
 cp -f ${1} /tmp/fuse_b/wifi_bdata.bin

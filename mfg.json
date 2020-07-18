@@ -1,0 +1,12 @@
+{
+"manufacture_data":
+{
+"wifimac":"<mac>",
+"bluemac":"<mac>",
+"camerasn":"<sn>",
+"cammodel":"0x18",
+"boardtype":"0x05",
+"boardname":"Chopes PVT",
+"wifiregion":"0"
+}
+}
