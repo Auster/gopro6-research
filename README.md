@@ -8,3 +8,6 @@ Boardname: "Chopes PVT"
 ## Linux part
 - [ps output](ps.out)
 - [mount output](mount.out)
+
+## FreeRTOS part
+- ToDo
